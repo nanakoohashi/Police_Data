@@ -20,6 +20,29 @@ df = pd.read_excel("Raw Data.xlsx")
 df
 
 
+# Before looking cleaning the data, I want to understand what each of the column headers mean. I was unable to find the original dataset on the [City of Seattle website](https://data.seattle.gov/Public-Safety/Seattle-Police-Department-911-Incident-Response/3k2p-39jp). At this stage, I would have spoken to the department and asked for clarification for all the column headers to make sure I understand what each of the columns mean. However, I did find [this report](https://visualizationdesign.files.wordpress.com/2015/06/caocolhtsingh_fr2.pdf) and used the data variables to figure out the meaning of each column header in the dataset.
+
+# - **CAD CDW ID**: ID in Computer Aided Dispatch System
+# - **CAD Event Number**: Event Number in Computer Aided Dispatch System
+# - **General Offense Number**: Number of general offense
+# - **Event Clearance Code**: Clearance code of incident
+# - **Event Clearance Description**: Description of incident when cleared
+# - **Event Clearance SubGroup**: SubGroup of incident when cleared
+# - **Event Clearance Group**: Group of incident when cleared
+# - **Event Clearance Date**: Date of clearance
+# - **Hundred Block Location**: Location of the incident shown in hundred block
+# - **District/Sector**: Geographic area where incident occurred
+# - **Zone/Beat**: Geographic area where incident occurred
+# - **Census Tract**: Census geographic region where incident occurred
+# - **Longitude**: Longitude where incident occurred
+# - **Latitude**: Latitude where incident occurred
+# - **Incident Location**: (Latitude, Longitude)
+# - **Initial Type Description**: Description of incident when occurred
+# - **Initial Type Subgroup**: SubGroup of incident when occurred
+# - **Initial Type Group**: Group of incident when occurred
+# - **At Scene Time**: Date/time when police at scene of incident
+
+
 # In[3]:
 
 df.info()
