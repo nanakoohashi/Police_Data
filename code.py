@@ -6,3 +6,11 @@
 
 import pandas as pd
 import numpy as np
+
+
+# In[2]:
+
+
+# read .xlsx file
+df = pd.read_excel("Raw Data.xlsx")
+df
