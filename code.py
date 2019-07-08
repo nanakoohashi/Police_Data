@@ -14,3 +14,8 @@ import numpy as np
 # read .xlsx file
 df = pd.read_excel("Raw Data.xlsx")
 df
+
+
+# In[3]:
+
+df.info()
