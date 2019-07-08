@@ -2,6 +2,10 @@
 # coding: utf-8
 
 
+# #Part 1
+# The police chief asks you to analyze the logs from emergency 911 calls in the city and then provide a summary of that data.
+
+
 # In[1]:
 
 import pandas as pd
