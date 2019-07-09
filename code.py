@@ -56,3 +56,9 @@ df.info()
 
 #find null entries
 df.isnull().sum()
+
+
+# In[5]:
+
+# Check for duplicates
+sum(df.duplicated())
