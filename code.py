@@ -54,5 +54,5 @@ df.info()
 
 # In[4]:
 
-
+#find null entries
 df.isnull().sum()
