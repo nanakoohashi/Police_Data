@@ -2,7 +2,7 @@
 # coding: utf-8
 
 
-# #Gather
+# ##Gather
 # The police chief asks you to analyze the logs from emergency 911 calls in the city and then provide a summary of that data.
 
 
@@ -43,7 +43,11 @@ df
 # - **At Scene Time**: Date/time when police at scene of incident
 
 
+# ## Assess
+
 
 # In[3]:
 
 df.info()
+
+
