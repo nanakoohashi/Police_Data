@@ -48,6 +48,11 @@ df
 
 # In[3]:
 
+
 df.info()
 
 
+# In[4]:
+
+
+df.isnull().sum()
