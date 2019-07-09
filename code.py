@@ -2,7 +2,7 @@
 # coding: utf-8
 
 
-# #Part 1
+# #Gather
 # The police chief asks you to analyze the logs from emergency 911 calls in the city and then provide a summary of that data.
 
 
@@ -41,6 +41,7 @@ df
 # - **Initial Type Subgroup**: SubGroup of incident when occurred
 # - **Initial Type Group**: Group of incident when occurred
 # - **At Scene Time**: Date/time when police at scene of incident
+
 
 
 # In[3]:
