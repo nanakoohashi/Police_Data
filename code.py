@@ -81,3 +81,11 @@ df
 # Replace `/` to `_` in column headings
 df.columns = df.columns.str.replace('/', '_')
 df
+
+
+# In[8]:
+
+
+# Observe NaNs in District Sector column
+nan_rows = df[df['District_Sector'].isnull()]
+nan_rows
