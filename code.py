@@ -73,3 +73,11 @@ sum(df.duplicated())
 # Rename columns to help code more easily
 df.columns = df.columns.str.replace(' ', '_')
 df
+
+
+# In[7]:
+
+
+# Replace `/` to `_` in column headings
+df.columns = df.columns.str.replace('/', '_')
+df
