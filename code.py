@@ -89,3 +89,10 @@ df
 # Observe NaNs in District Sector column
 nan_rows = df[df['District_Sector'].isnull()]
 nan_rows
+
+
+# In[9]:
+
+
+# Check if any other rows contain the same Zone_Beat as the NaN row.
+df.query('Zone_Beat == "FS"')
