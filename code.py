@@ -67,3 +67,9 @@ sum(df.duplicated())
 # ##Clean
 
 
+# In[6]:
+
+
+# Rename columns to help code more easily
+df.columns = df.columns.str.replace(' ', '_')
+df
