@@ -43,7 +43,7 @@ df
 # - **At Scene Time**: Date/time when police at scene of incident
 
 
-# ## Assess
+# ##Assess
 
 
 # In[3]:
@@ -62,3 +62,8 @@ df.isnull().sum()
 
 # Check for duplicates
 sum(df.duplicated())
+
+
+# ##Clean
+
+
