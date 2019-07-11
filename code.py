@@ -110,3 +110,11 @@ df = df.dropna(subset=['District_Sector'])
 
 # Check to make sure the row has been deleted.
 df[df['District_Sector'].isnull()]
+
+
+# In[12]:
+
+
+# Observe NaNs in District Sector column
+nan_rows1 = df[df['Census_Tract'].isnull()]
+nan_rows1
