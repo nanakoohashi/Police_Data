@@ -124,3 +124,9 @@ nan_rows1
 
 
 sum(df.CAD_CDW_ID.duplicated())
+
+
+# In[14]:
+
+
+sum(df.CAD_Event_Number.duplicated())
