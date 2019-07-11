@@ -96,3 +96,10 @@ nan_rows
 
 # Check if any other rows contain the same Zone_Beat as the NaN row.
 df.query('Zone_Beat == "FS"')
+
+
+# In[10]:
+
+
+# Due to only one row containing the Zone/Beat FS, I will delete this row.
+df = df.dropna(subset=['District_Sector'])
