@@ -118,3 +118,9 @@ df[df['District_Sector'].isnull()]
 # Observe NaNs in District Sector column
 nan_rows1 = df[df['Census_Tract'].isnull()]
 nan_rows1
+
+
+# In[13]:
+
+
+sum(df.CAD_CDW_ID.duplicated())
