@@ -103,3 +103,10 @@ df.query('Zone_Beat == "FS"')
 
 # Due to only one row containing the Zone/Beat FS, I will delete this row.
 df = df.dropna(subset=['District_Sector'])
+
+
+# In[11]:
+
+
+# Check to make sure the row has been deleted.
+df[df['District_Sector'].isnull()]
