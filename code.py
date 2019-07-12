@@ -123,6 +123,7 @@ nan_rows1
 # In[13]:
 
 
+# sum all duplicated entries in CAD CDW ID column
 sum(df.CAD_CDW_ID.duplicated())
 
 
