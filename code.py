@@ -137,4 +137,5 @@ sum(df.CAD_Event_Number.duplicated())
 # In[15]:
 
 
+# sum all duplicated entries in General Offense Number column
 sum(df.General_Offense_Number.duplicated())
