@@ -130,4 +130,5 @@ sum(df.CAD_CDW_ID.duplicated())
 # In[14]:
 
 
+# sum all duplicated entries in CAD Event Number column
 sum(df.CAD_Event_Number.duplicated())
