@@ -147,3 +147,8 @@ sum(df.General_Offense_Number.duplicated())
 # find all unique values in the column
 df.Event_Clearance_Group.unique()
 
+
+# In[17]:
+
+
+df.Initial_Type_Group.unique()
