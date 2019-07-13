@@ -139,3 +139,9 @@ sum(df.CAD_Event_Number.duplicated())
 
 # sum all duplicated entries in General Offense Number column
 sum(df.General_Offense_Number.duplicated())
+
+
+# In[16]:
+
+df.Event_Clearance_Group.unique()
+
