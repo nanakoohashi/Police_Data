@@ -151,4 +151,5 @@ df.Event_Clearance_Group.unique()
 # In[17]:
 
 
+# find all unique values in the column
 df.Initial_Type_Group.unique()
