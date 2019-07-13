@@ -153,3 +153,10 @@ df.Event_Clearance_Group.unique()
 
 # find all unique values in the column
 df.Initial_Type_Group.unique()
+
+
+
+# In[18]: 
+
+
+df.District_Sector.unique()
