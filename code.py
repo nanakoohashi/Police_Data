@@ -172,4 +172,6 @@ df.OFFICERS_AT_SCENE.unique()
 
 # In[20]:
 
+
+# Drop At_Scene_Time column
 df = df.drop('At_Scene_Time', 1)
