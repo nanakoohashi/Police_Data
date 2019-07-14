@@ -159,4 +159,7 @@ df.Initial_Type_Group.unique()
 # In[18]: 
 
 
+# find all unique values in column
 df.District_Sector.unique()
+
+
