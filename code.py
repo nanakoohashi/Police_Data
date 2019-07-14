@@ -168,3 +168,8 @@ df.District_Sector.unique()
 
 # find all unique values in column
 df.OFFICERS_AT_SCENE.unique()
+
+
+# In[20]:
+
+df = df.drop('At_Scene_Time', 1)
