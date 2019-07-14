@@ -163,3 +163,8 @@ df.Initial_Type_Group.unique()
 df.District_Sector.unique()
 
 
+# In[19]:
+
+
+# 
+df.OFFICERS_AT_SCENE.unique()
