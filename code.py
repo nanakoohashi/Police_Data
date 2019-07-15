@@ -190,3 +190,9 @@ df = df.drop('CAD_CDW_ID', 1)
 
 # Drop CAD_Event_Number column
 df = df.drop('CAD_Event_Number', 1)
+
+
+# In[23]:
+
+
+df = df.drop('General_Offense_Number', 1)
