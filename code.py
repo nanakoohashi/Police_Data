@@ -181,4 +181,5 @@ df = df.drop('At_Scene_Time', 1)
 # In[21]:
 
 
+# Drop CAD_CDW_ID column
 df = df.drop('CAD_CDW_ID', 1)
