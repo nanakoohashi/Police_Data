@@ -188,4 +188,5 @@ df = df.drop('CAD_CDW_ID', 1)
 # In[22]:
 
 
+# Drop CAD_Event_Number column
 df = df.drop('CAD_Event_Number', 1)
