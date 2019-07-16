@@ -209,4 +209,5 @@ df = df.drop('Event_Clearance_Code', 1)
 # In[25]:
 
 
+# Drop Event Clearance SubGroup column
 df = df.drop('Event_Clearance_SubGroup', 1)
