@@ -195,4 +195,5 @@ df = df.drop('CAD_Event_Number', 1)
 # In[23]:
 
 
+# Drop General_Offense_Number column
 df = df.drop('General_Offense_Number', 1)
