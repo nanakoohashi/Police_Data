@@ -197,3 +197,9 @@ df = df.drop('CAD_Event_Number', 1)
 
 # Drop General_Offense_Number column
 df = df.drop('General_Offense_Number', 1)
+
+
+# In[24]:
+
+
+df = df.drop('Event_Clearance_Code', 1)
