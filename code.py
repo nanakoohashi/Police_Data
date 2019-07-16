@@ -204,3 +204,9 @@ df = df.drop('General_Offense_Number', 1)
 
 # Drop Event Clearance Code column
 df = df.drop('Event_Clearance_Code', 1)
+
+
+# In[25]:
+
+
+df = df.drop('Event_Clearance_SubGroup', 1)
