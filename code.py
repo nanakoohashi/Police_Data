@@ -223,4 +223,5 @@ df = df.drop('Hundred_Block_Location', 1)
 # In[27]:
 
 
+# Drop Longitude column
 df = df.drop('Longitude', 1)
