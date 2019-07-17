@@ -237,4 +237,5 @@ df = df.drop('Latitude', 1)
 # In[29]:
 
 
+# Drop Incident Location column
 df = df.drop('Incident_Location', 1)
