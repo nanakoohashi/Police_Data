@@ -244,4 +244,5 @@ df = df.drop('Incident_Location', 1)
 # In[30]:
 
 
+# Drop Initial Type Subgroup
 df = df.drop('Initial_Type_Subgroup', 1)
