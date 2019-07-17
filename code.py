@@ -218,3 +218,9 @@ df = df.drop('Event_Clearance_SubGroup', 1)
 
 # Drop Hundred Block Location column
 df = df.drop('Hundred_Block_Location', 1)
+
+
+# In[27]:
+
+
+df = df.drop('Longitude', 1)
