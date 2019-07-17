@@ -230,4 +230,5 @@ df = df.drop('Longitude', 1)
 # In[28]:
 
 
+# Drop Latitude column
 df = df.drop('Latitude', 1)
