@@ -239,3 +239,9 @@ df = df.drop('Latitude', 1)
 
 # Drop Incident Location column
 df = df.drop('Incident_Location', 1)
+
+
+# In[30]:
+
+
+df = df.drop('Initial_Type_Subgroup', 1)
