@@ -254,3 +254,8 @@ df = df.drop('Initial_Type_Subgroup', 1)
 # Find null entries
 df.isnull().values.any()
 
+
+# In[32]:
+
+
+df.to_csv('assessment.csv')
