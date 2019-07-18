@@ -246,3 +246,10 @@ df = df.drop('Incident_Location', 1)
 
 # Drop Initial Type Subgroup
 df = df.drop('Initial_Type_Subgroup', 1)
+
+
+# In[31]:
+
+
+df.isnull().values.any()
+
