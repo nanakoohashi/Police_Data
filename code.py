@@ -258,4 +258,5 @@ df.isnull().values.any()
 # In[32]:
 
 
+# Write to .csv file
 df.to_csv('assessment.csv')
