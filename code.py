@@ -251,5 +251,6 @@ df = df.drop('Initial_Type_Subgroup', 1)
 # In[31]:
 
 
+# Find null entries
 df.isnull().values.any()
 
