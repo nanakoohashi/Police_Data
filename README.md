@@ -15,3 +15,8 @@ Windows 10
 - Provide a clean copy of the data in your submission
 
 ### Libraries
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- calendar
