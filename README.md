@@ -20,3 +20,6 @@ Windows 10
 - matplotlib
 - seaborn
 - calendar
+
+
+## Steps
