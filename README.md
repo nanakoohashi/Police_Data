@@ -26,3 +26,4 @@ Python 3
 ## Steps
 1. Import Data
 2. Clean Data
+3. Write DataFrame to a .csv
