@@ -30,3 +30,5 @@ Python 3
 
 
 ## Explanation of Column Deletions 
+- **Over half of data missing for "At Scene Time" column.**
+This figure is too high to fill in, so removing the column is a better idea.
