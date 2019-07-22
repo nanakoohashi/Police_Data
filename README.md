@@ -12,7 +12,7 @@ Windows 10
 - Remove potential outliers
 - Remove duplicate records
 - Remove unnecessary data
-- Provide a clean copy of the data in your submission
+- Provide a clean copy of the data
 
 ### Libraries
 - pandas
