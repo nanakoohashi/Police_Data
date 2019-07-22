@@ -27,3 +27,6 @@ Python 3
 1. Import Data
 2. Clean Data
 3. Write DataFrame to a .csv
+
+
+## Explanation of Column Deletions 
