@@ -6,6 +6,7 @@ This dataset contains the Seattle Police Department's incident response data. Th
 ## Getting Started
 ### Dependencies
 Windows 10
+Python 3
 
 ### Clean Dataset
 - Remove potential errors
