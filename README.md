@@ -32,3 +32,5 @@ This dataset contains the Seattle Police Department's incident response data. Th
 ## Explanation of Column Deletions 
 - **Over half of data missing for "At Scene Time" column.**
 This figure is too high to fill in, so removing the column is a better idea.
+- **Remove "CAD CDW ID", "CAD Event Number", "General Offense Number", and "Event Clearance Code" columns.**
+These columns are not necessary for the analysis.
