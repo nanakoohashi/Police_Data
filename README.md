@@ -36,5 +36,5 @@ This figure is too high to fill in, so removing the column is a better idea.
 These columns are not necessary for the analysis.
 - **Remove "Longitude", "Latitude", "Incident Location", and 'Hundred Block Location' columns**
 "District/Sector", "Zone/Beat", and "Census Tract" all describe the location in a way that is useful in summarizing data. I chose to remove the columns listed as it contained sensitive information about the public.
-- **Remove "Event Clearance" and "Event Clearance SubGroup"**
+- **Remove "Event Clearance SubGroup"**
 "Event Clearance" and "Event Clearance Description Group" columns already outline a clear idea of the event. The SubGroup column does not add a lot of extra information.
