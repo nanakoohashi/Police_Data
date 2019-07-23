@@ -34,3 +34,5 @@ This dataset contains the Seattle Police Department's incident response data. Th
 This figure is too high to fill in, so removing the column is a better idea.
 - **Remove "CAD CDW ID", "CAD Event Number", "General Offense Number", and "Event Clearance Code" columns.**
 These columns are not necessary for the analysis.
+- **Remove "Longitude", "Latitude", "Incident Location", and 'Hundred Block Location' columns**
+"District/Sector", "Zone/Beat", and "Census Tract" all describe the location in a way that is useful in summarizing data. I chose to remove the columns listed as it contained sensitive information about the public.
