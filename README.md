@@ -42,3 +42,4 @@ These columns are not necessary for the analysis.
 - **Remove row 224 due to missing "District_Sector" entry** - There are no other entries with the same "Zone/Beat" entry as this row so I removed the row altogether.
 
 ## References
+- **Cao, W., Colht, K., & Singh, G. (2015).** Visualizing Seattle Police Department Incident Response Data. University of Washington. Retrieved from https://visualizationdesign.files.wordpress.com/2015/06/caocolhtsingh_fr2.pdf
