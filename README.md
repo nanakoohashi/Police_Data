@@ -38,4 +38,5 @@ These columns are not necessary for the analysis.
 "District/Sector", "Zone/Beat", and "Census Tract" all describe the location in a way that is useful in summarizing data. I chose to remove the columns listed as it contained sensitive information about the public.
 - **Remove "Event Clearance SubGroup"**
 "Event Clearance" and "Event Clearance Description Group" columns already outline a clear idea of the event. The SubGroup column does not add a lot of extra information.
+- **Remove "Initial Type Subgroup"** - "Event Initial Type Description" and "Initial_Type_Group" provide enough information of the event.
 - **Remove row 224 due to missing "District_Sector" entry** - There are no other entries with the same "Zone/Beat" entry as this row so I removed the row altogether.
